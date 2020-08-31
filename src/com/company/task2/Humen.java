@@ -14,7 +14,11 @@ public class Humen {
 
     }
 
-public  void say(){
+    public Humen() {
+
+    }
+
+    public  void say(){
         System.out.println(
                 "Name: " + name+ "\n" +
                         "Height: " + height +

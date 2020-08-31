@@ -19,6 +19,6 @@ public  void say(){
                 "Name: " + name + "\n" +
                         "Height: " + height +
                         "Age: " + age +
-                        "Weight: " + weight +);
+                        "Weight: " + weight );
 }
 }

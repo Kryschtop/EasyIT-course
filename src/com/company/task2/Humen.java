@@ -8,7 +8,7 @@ public class Humen {
 
     public Humen(String name,int age,double height,double weight){
         this.name = name;
-        this.age = age;
+        this.age= age;
         this.height = height;
         this.weight = weight;
 
@@ -16,7 +16,7 @@ public class Humen {
 
 public  void say(){
         System.out.println(
-                "Name: " + name + "\n" +
+                "Name: " + namena+ "\n" +
                         "Height: " + height +
                         "Age: " + age +
                         "Weight: " + weight );

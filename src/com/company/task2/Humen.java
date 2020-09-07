@@ -4,25 +4,19 @@ public class Humen {
     private String name;
     private int age;
     private double height;
-    private double weight;
-
-    public Humen(String name,int age,double height,double weight){
+    private double weitht;
+    private Hobby hobby;
+    public Humen(String name,int age,double height,double weitht,Hobby hobby) {
         this.name = name;
-        this.age= age;
+        this.age = age;
         this.height = height;
-        this.weight = weight;
-
+        this.weitht = weitht;
+        this.hobby=hobby;
     }
-
-    public Humen() {
-
+    public void say() {
+        System.out.println("Name: "+name+"\n"+" Age: "+age+"\n"+" Height: "+height+"\n"+" Weitht: "+weitht+"Hobby"+hobby.toString());
     }
+}
 
-    public  void say(){
-        System.out.println(
-                "Name: " + name+ "\n" +
-                        "Height: " + height +
-                        "Age: " + age +
-                        "Weight: " + weight );
-}
-}
+
+
